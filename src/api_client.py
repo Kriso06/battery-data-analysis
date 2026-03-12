@@ -67,7 +67,7 @@ class IntellicarAPIClient:
         data=self._post_with_token(LIST_VEHICLES_PATH,{})
         return data.get("data",[])
     
-    def get_latest_can(self,vehicle_no):
+    def get_latest_can(self,vehicle_no): #returns a dictionary of metrics
         data=self._post_with_token(
             LATEST_CAN_PATH,
             {"vehicleno":vehicle_no}
