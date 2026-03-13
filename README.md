@@ -33,6 +33,7 @@ battery-data-analysis/
 ├─ .gitignore
 ├─ README.md
 └─ requirements.txt
+```
 
 ## Tech Stack
 Python
