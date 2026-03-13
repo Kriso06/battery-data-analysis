@@ -1,7 +1,7 @@
 # Battery Telemetry Assessment
 This project fetched battery telemetry data from the Intellicar Standard API, stores it in a SQLite db, collects distance travelled data, and is structured to support charging/discharging analysis and anomaly detection.
 
-## What This Proeject Does
+## What This Project Does
 - Authenticates with the Intellicar API using username and password
 - Fetches the list of available vehicles
 - Collects latest CAN/battery telemetry for all vehicles
@@ -33,3 +33,10 @@ battery-data-analysis/
 ├─ .gitignore
 ├─ README.md
 └─ requirements.txt
+
+## Tech Stack
+Python
+SQLite
+Requests
+Pandas
+python-dotenv
